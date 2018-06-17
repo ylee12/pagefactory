@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.apple.qa.testcases.BuyPageTestCases">
+        <methods>
+          <include name="AddAppleCare"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apple.qa.testcases.BuyPageTestCases -->
+      <class name="com.apple.qa.testcases.IpadPageTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.apple.qa.testcases.IpadPageTestCases -->
+      <class name="com.apple.qa.testcases.HomePageTestCase">
+        <methods>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apple.qa.testcases.HomePageTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
